@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+.header{
+    height: 800px;
+    background-image: url("img/slider-img.jpg");
+}
+.logo{
+    margin-top: 63px;
+    margin-left: 98px;
+    float: left;
+}
+.menu{
+    margin-right: 211px;
+    margin-top: 67px;
+    float: right;
+}
+.menu li{
+    list-style-type: none;
+    display: inline-block;
+}
+.menu li a{
+    text-decoration: none;
+    color:  #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 48px;
+    text-align: right;
+    padding: 10px 20px;
+}
+.menu li:last-child a{
+    padding: 0;
+}
+.menu li a:hover{
+    color:  #212121;
+    font-weight: 700;
+    border-bottom: 1px solid black;
+}
+.menu li:last-child a:hover{
+    border-bottom: 0 solid black;
+}
+.header .text{
+    width: 458px;
+    margin-top: 288px;
+    margin-left: 98px;
+    float: left;
+}
+.header .text h3{
+    color:  #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 22px;
+}
+.header .text h1{
+    color:  #212121;
+    font-size: 58px;
+    font-weight: 100;
+    line-height: 72px;
+    margin-bottom: 34px;
+}
+.header .text p{
+    color:  #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+a.order-us{
+    display: block;
+    background:  #ffffff;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 212px;
+    height: 45px;
+    text-decoration: none;
+    border-radius: 22px;
+    text-align: center;
+    line-height: 45px;
+    color:  #212121;
+    font-size: 18px;
+    font-weight: 700;
+}
+a.order-us:hover {
+    background: #ffffff url('img/arrow.png') no-repeat 173px 16px;
+}
+
+
+
+.feature-new{
+    margin-left: 107px;
+    margin-top: 120px;
+    float: left;
+}
+.feature-new li{
+    list-style-type: none;
+    display: inline-block;
+}
+.feature-new li a {
+    text-decoration: none;
+    color:  #6c6c6c;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    padding-right: 25px;
+    padding-left: 6px;
+}
+.feature-new li a:hover {
+    color:  #212121;
+    border-bottom: 1px solid black;
+}
+.feature .explore-all{
+    color:  #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    margin-top: 138px;
+    margin-right: 118px;
+}
+.feature .products{
+    clear: both;
+    display: inline-block;
+    margin-top: 72px;
+    margin-left: 98px;
+}
+.feature .products a{
+    margin-right: 30px;
+}
+.feature .products a:hover{
+    opacity: 0.2;
+}
+
+
+
+.exclusive-1{
+    margin-top: 120px;
+    height: 683px;
+}
+.exclusive-product-1{
+    background-image: url("img/promo-img1.jpg");
+    height: 683px;
+    width: 683px;
+    float: left;
+}
+.exclusive-product-2{
+    background-image: url("img/promo-img.jpg");
+    height: 683px;
+    width: 683px;
+    float: left;
+}
+.exclusive-text{
+    width: 374px;
+    margin-top: 228px;
+    margin-left: 51px;
+}
+.exclusive-text h3{
+    color:  #1e88e5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    margin-bottom: 18px;
+}
+.exclusive-text h1{
+    color:  #212121;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.exclusive-text p {
+    color: #6c6c6c;
+    font-size: 13.99px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    transform: scaleY(1.0022);
+}
+
+
+
+
+.trend{
+    clear: both;
+    margin-top: 119px;
+    margin-left: 98px;
+}
+.trend p{
+    color:  #212121;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    float: left;
+}
+.trend .explore-all{
+    color:  #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    float: right;
+    margin-right: 118px;
+
+}
+.trend .products{
+    clear: both;
+    margin-top: 64px;
+    float: left;
+}
+.trend .products a{
+    margin-right: 30px;
+    margin-bottom: 30px;
+    float: left;
+}
+
+
+
+.hot-deal{
+    clear: both;
+    float: left;
+    height: 800px;
+    width: 1366px;
+    background-image: url("img/slider.jpg");
+    margin-top: 120px;
+}
+.hot-deal .text{
+    width: 458px;
+    margin-top: 287px;
+    margin-left: 99px;
+}
+.hot-deal .text h3{
+    color:  #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    margin-bottom: 22px;
+}
+.hot-deal .text h1{
+    color:  #212121;
+    font-size: 58px;
+    font-weight: 100;
+    line-height: 72px;
+    text-align: left;
+    margin-bottom: 34px;
+}
+.hot-deal .text p {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+
+
+
+.exclusive-2{
+    clear: both;
+    float: left;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.exclusive-2 .big-box{
+    width: 570px;
+    height: 570px;
+    background-image: url("img/product-1-lg.jpg");
+    float: left;
+    margin-left: 98px;
+}
+.exclusive-2 .big-box .text{
+    width: 332px;
+    padding-left: 31px;
+}
+.exclusive-2 .big-box .text h3{
+    color:  #1e88e5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    margin-top: 186px;
+    margin-bottom: 18px;
+}
+.exclusive-2 .big-box .text h1{
+    color:  #212121;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.exclusive-2 .big-box .text p{
+    color:  #6c6c6c;
+    font-size: 13.99px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    transform: scaleY(1.0022);
+    margin-bottom: 34px;
+}
+.exclusive-2 .little-boxes{
+    width: 620px;
+    height: 570px;
+    float: left;
+
+}
+.exclusive-2 .little-boxes a{
+    float: left;
+    margin: 0 0 30px 30px;
+}
+.exclusive-2 .little-boxes a:nth-child(2n){
+    margin: 0 0 30px 30px;
+}
+.exclusive-2 .little-boxes a:nth-child(n+3){
+    margin: 0 0 0 30px;
+}
+
+
+.app{
+    clear: both;
+    height: 516px;
+    width: 1366px;
+    background-image: url("img/back-img.jpg");
+}
+.app .text{
+    width: 475px;
+    margin-left: 106px;
+    padding-top: 160px;
+}
+.app .text h3{
+    color:  #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+
+}
+.app .text h1{
+    color:  #212121;
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+    text-align: left;
+}
+.app .text p{
+    color:  #6c6c6c;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 33px;
+}
+.app .text a{
+    margin-right: 10px;
+}
+
+.footer{
+    clear: both;
+    height: 384px;
+    padding-top: 120px;
+    padding-left: 97px;
+}
+.footer h3{
+    color:  #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+}
+.footer .contact{
+    float: left;
+    margin-right: 80px;
+    width: 146px;
+}
+.footer .contact h3{
+    margin-bottom: 24px;
+}
+.footer .contact p{
+    color:  #212121;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+}
+.footer .information{
+    float: left;
+    margin-right: 60px;
+    width: 490px;
+}
+.footer .information h3{
+    margin-bottom: 25px;
+}
+.footer .information li{
+    list-style-type: none;
+}
+.footer .information .useful-info-menu > li{
+   display: inline-block;
+}
+.footer .information .useful-info-menu li:first-child{
+    margin-right: 60px;
+}
+.footer .information li a{
+    color:  #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.footer .in-touch{
+    float: left;
+    width: 363px;
+}
+.footer .in-touch p{
+    color:  #212121;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+}
+.footer .in-touch h3{
+    margin-bottom: 24px;
+}
+.footer .text{
+    clear: both;
+}
+
