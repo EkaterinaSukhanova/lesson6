@@ -209,6 +209,7 @@ a.order-us:hover {
     font-weight: 700;
     line-height: 24px;
     text-align: center;
+    text-decoration: none;
     float: right;
     margin-right: 118px;
 
@@ -381,21 +382,21 @@ a.order-us:hover {
 .footer .contact{
     float: left;
     margin-right: 80px;
-    width: 146px;
+    width: 190px;
 }
 .footer .contact h3{
     margin-bottom: 24px;
 }
 .footer .contact p{
     color:  #212121;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 300;
     line-height: 22px;
     text-align: left;
 }
 .footer .information{
     float: left;
-    margin-right: 60px;
+    margin-right: 50px;
     width: 490px;
 }
 .footer .information h3{
@@ -423,17 +424,39 @@ a.order-us:hover {
     float: left;
     width: 363px;
 }
+.footer .in-touch h3{
+    margin-bottom: 24px;
+}
 .footer .in-touch p{
     color:  #212121;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
     text-align: left;
+    margin-bottom: 26px;
 }
-.footer .in-touch h3{
-    margin-bottom: 24px;
+.footer .in-touch input{
+    width: 370px;
+    padding-left: 19px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    color:  #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
 }
 .footer .text{
     clear: both;
+    float: left;
+    margin-top: 77px;
+    color:  #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
 }
+.footer .text a{
+    margin-left: 158px;
+    margin-right: 172px;
+}
+
 
